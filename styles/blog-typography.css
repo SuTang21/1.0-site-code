@@ -12,7 +12,7 @@ h1{
 
 h2{
     font-family: var(--secondary-font);
-    text-transform: lowercase;
+    text-transform: initial;
     font-style: italic;
     font-size: var(--blog-subhead-size);
     line-height: calc(var(--blog-subhead-size)*1.1);
@@ -31,19 +31,26 @@ time{
     font-size: var(--h-size);
 }
 
-.name{
+b{
     text-transform: uppercase;
     font-style: normal;
+    font-weight: 700;
 }
 
-.role{
+em,
+cite{
     font-family: var(--secondary-font);
-    text-transform: lowercase;
 }
 
-p{
+p,
+figcaption{
     font-family: var(--primary-font);
     font-size: var(--h-size);
+}
+
+blockquote{
+    font-family: var(--secondary-font);
+    font-size: var(--logo-size);
 }
 
 
