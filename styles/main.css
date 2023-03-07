@@ -66,6 +66,15 @@ nav>ul{
     width: 100%;
 }
 
+footer{
+    padding: var(--margin);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    padding-block-start: 120px;
+}
+
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
     nav{
@@ -95,6 +104,12 @@ nav>ul{
     .img:hover{
         transition: transform 280ms ease-out;
         transform: scale(1.005);
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap)
     }
   }
 
@@ -138,5 +153,11 @@ nav>ul{
     .clickable:hover{
         transition: transform 280ms ease-out;
         transform: scale(1.005);
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--gap)
     }
   }

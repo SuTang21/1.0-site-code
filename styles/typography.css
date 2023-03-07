@@ -8,12 +8,12 @@ ul>li{
     font-style: italic;
 }
 
-#logo{
+.logo{
     font-family: var(--logo);
     font-size: var(--logo-size);
     text-transform: uppercase;
     font-style: normal;
-    text-align: center;
+    text-align: left;
 }
 
 h1,
@@ -39,3 +39,14 @@ a:visited{
     color: black;
 }
 
+#legal{
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.socials>ul>li{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-size: 1.2rem;
+}
